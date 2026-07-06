@@ -1,26 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+ <link rel="stylesheet" href="style.css">
   <title>Vincent Comeau Bio Page</title>
+  <style>
+    .container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: dodgerblue;
+  padding: 10px;
+}
+.container div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+</style>
 </head>
 <body>
-  <h1> <b><i><mark>About Me</b></i></mark>
+  <h3>Vincent Comeau Bio Page</h3>
+  <section class="card"><h1>About Me</h1>
   <p>My name is Vincent, and I am a student at the University of Central Florida majoring in Film. 
     I enjoy learning about filmmaking, video editing, and digital media while continuing to improve my creative and technical skills. 
     I am always looking for opportunities to learn something new and build experience that will help me in my future career. </p>
-  <p>Outside of school, I am a big fan of video games, comics, and movies. 
-    One of my goals is to work in the entertainment or media industry after graduation, where I can use my creativity to produce engaging content. </p>
-    <h2> <b>Favorite Movies</b>
-   <ul>
+  <p2>Outside of school, I am a big fan of video games, comics, and movies. 
+    One of my goals is to work in the entertainment or media industry after graduation, where I can use my creativity to produce engaging content. </p2></section>
+      <h2><b>Favorite Movies</b></h2>
+   <ul class="movie-list">
      <li>Guardians of the Galaxy</li>
      <li>Logan</li>
      <li>Toy Story 3</li>
       <li>Guardians of the Galaxy Vol. 3</li>
    </ul>
    <img src="Image/MV5BM2ZmNjQ2MzAtNDlhNi00MmQyLWJhZDMtNmJiMjFlOWY4MzcxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" 
-   alt="This is the movie poster for not just my favorite comic book movie, but my favorite movie all time." style="width=240">
-   <a href="https://boxd.it/lOmB9" target="_blank">Letterboxd link for my movie reviews.</a>
+   alt="This is the movie poster for not just my favorite comic book movie, but my favorite movie all time." style="width=240px">
+   <div class="link-center">
+    <a href="https://boxd.it/lOmB9" target="_blank">
+        Letterboxd link for my movie reviews.
+    </a>
+</div>
+   
    
 </body>
 </html>
