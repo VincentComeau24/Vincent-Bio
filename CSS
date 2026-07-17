@@ -94,3 +94,26 @@ a:hover {
     background-color: #9c27b0;
     transform: scale(1.05);
 }
+#funFactBtn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #7b1fa2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#funFactBtn:hover {
+    background-color: #9c27b0;
+}
+
+#funFact {
+    text-align: center;
+    color: white;
+    font-size: large;
+    max-width: 800px;
+    margin: 20px auto;
+}
